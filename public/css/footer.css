@@ -1,0 +1,170 @@
+#footer {
+  width: 100%;
+  padding: 30 0 40px 0;
+  background: #fff;
+}
+#footer .row1 {
+  width: 100%;
+}
+#footer .row1 .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#footer .row1 .container .row1-row1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#footer .row1 .container .row1-row1 .left {
+  width: 50%;
+}
+#footer .row1 .container .row1-row1 .left ul li:nth-child(1) {
+  color: #333;
+}
+#footer .row1 .container .row1-row1 .left ul li:nth-child(1) h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#footer .row1 .container .row1-row1 .left ul li:nth-child(1) div {
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+#footer .row1 .container .row1-row1 .left ul li:nth-child(1) div a {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 10px 0 0;
+  vertical-align: bottom;
+}
+#footer .row1 .container .row1-row1 .left ul li:nth-child(2) div {
+  padding: 7px 0;
+  display: flex;
+  font-size: 14px;
+}
+#footer .row1 .container .row1-row1 .left ul li:nth-child(2) div a {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  border: 1px solid #ddd;
+}
+#footer .row1 .container .row1-row1 .left ul li:nth-child(2) div span {
+  margin: 0 0 0 15px;
+  line-height: 130%;
+  color: #999;
+}
+#footer .row1 .container .row1-row1 .left ul li:nth-child(3) {
+  padding: 20px 0 0 0;
+  font-size: 12px;
+  line-height: 140%;
+}
+#footer .row1 .container .row1-row1 .left ul li:nth-child(3) p {
+  color: #999;
+}
+#footer .row1 .container .row1-row1 .left ul li:nth-child(3) p a {
+  color: #999;
+}
+#footer .row1 .container .row1-row1 .right {
+  width: 50%;
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(1) a {
+  font-size: 14px;
+  color: #333;
+  margin: 0 14px 0 0;
+  letter-spacing: -0.8px;
+  font-weight: 500;
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(2) {
+  padding: 30px 0 35px 0;
+  line-height: 140%;
+  color: #666;
+  font-size: 12px;
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(2) i {
+  margin: 0 10px;
+  color: #ccc;
+  font-size: 10px;
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(2) a {
+  color: #5f0080;
+  margin: 0 0 0 6px;
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(3) {
+  display: flex;
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(3) a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url() no-repeat 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(3) a:nth-child(1) {
+  background-image: url(../images/intro/ico_instagram.png);
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(3) a:nth-child(2) {
+  background-image: url(../images/intro/ico_fb.png);
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(3) a:nth-child(3) {
+  background-image: url(../images/intro/ico_blog.png);
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(3) a:nth-child(4) {
+  background-image: url(../images/intro/ico_naverpost.png);
+}
+#footer .row1 .container .row1-row1 .right ul li:nth-child(3) a:nth-child(5) {
+  background-image: url(../images/intro/ico_youtube.png);
+}
+#footer .row1 .container .row1-row2 {
+  width: 100%;
+  padding: 30px 0;
+}
+#footer .row1 .container .row1-row2 ul {
+  width: 100%;
+  display: flex;
+}
+#footer .row1 .container .row1-row2 ul li {
+  width: 25%;
+}
+#footer .row1 .container .row1-row2 ul li a {
+  display: flex;
+}
+#footer .row1 .container .row1-row2 ul li a img {
+  height: 34px;
+}
+#footer .row1 .container .row1-row2 ul li a span {
+  font-size: 10px;
+  color: #999;
+  line-height: 120%;
+  letter-spacing: -0.5px;
+  padding: 0 0 0 12px;
+}
+#footer .row1 .container .row1-row2 ul li:nth-child(3) a img {
+  height: 32px;
+}
+#footer .row2 {
+  background: #f6f6f6;
+  padding: 30px 0 40px 0;
+}
+#footer .row2 .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#footer .row2 .container .content {
+  font-size: 10px;
+  color: #999;
+  text-align: center;
+}
+#footer .row2 .container .content p {
+  line-height: 140%;
+}
+#footer .row2 .container .content strong {
+  padding: 10px 0 0 0;
+  display: block;
+  text-transform: uppercase;
+}

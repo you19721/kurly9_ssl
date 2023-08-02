@@ -1,0 +1,51 @@
+git init
+git config user.name  'you19721'
+git config user.email 'you19721@naver.com'
+git remote add origin https://github.com/you19721/kurly9_ssl.git
+
+오리진 확인
+git remote -v
+
+오리진 삭제 : 잘못된 오리진 주소를 넣은 경우
+git remote remove origin
+
+다시 추가
+git remote add origin  https://github.com/you19721/kurly9_web.git
+
+
+git add .
+git commit -m  '리액트 CRA Kurly 배포'
+git push origin master
+//// 저장소 저장완료 /////////////////////////////////////////////////////
+
+//// 배포준비  //////////////////////////////////////////////////////////
+Deployment
+// json 보라색 중가로 밑에 적기 : 웹주소 "homepage": "https://you19721.github.io/kurly9_ssl
+
+   (빨간색 있는곳)
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -b master -d build",
+
+
+   npm run deploy
+
+   Published  배포되었습니다.
+
+   Settings  클릭
+
+   pages 클릭
+
+   GitHub Pages => Branch 클릭 => master 클릭 => save
+
+   1 ~ 3분 대기 새로고침
+
+   그러면 위쪽에 배포주소가 뜬다.
+
+   https://you19721.github.io/kurly9_web
+
+   배포완료 
+   Visit Site  클릭
+
+
+
+you19721.dothome.co.kr/myadmin

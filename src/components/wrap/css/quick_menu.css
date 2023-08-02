@@ -1,0 +1,91 @@
+#quickMenu {
+  position: absolute;
+  right: 20px;
+  top: 661.578px;
+  width: 80px;
+  z-index: 3;
+  margin: 0;
+}
+#quickMenu.on {
+  position: fixed;
+  top: 50%;
+  margin: -260px 0 0 0;
+}
+#quickMenu > div {
+  width: 100%;
+}
+#quickMenu > div.top a {
+  display: block;
+  width: 100%;
+}
+#quickMenu > div.top a img {
+  width: 100%;
+}
+#quickMenu > div.middle p {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+#quickMenu > div.middle p:last-child {
+  border-bottom: 1px solid #ddd;
+}
+#quickMenu > div.middle p a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  height: 30px;
+  width: 100%;
+}
+#quickMenu > div.bottom {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+#quickMenu > div.bottom div {
+  width: 100%;
+  text-align: center;
+}
+#quickMenu > div.bottom div.arrow-top {
+  height: 20px;
+}
+#quickMenu > div.bottom div.arrow-top img {
+  width: 20px;
+}
+#quickMenu > div.bottom div.title {
+  font-size: 12px;
+  font-weight: 500;
+}
+#quickMenu > div.bottom div.arrow-bottom {
+  height: 20px;
+}
+#quickMenu > div.bottom div.arrow-bottom img {
+  width: 20px;
+  transform: rotate(180deg);
+}
+#quickMenu > div.bottom .slide-view {
+  width: 100%;
+  height: auto;
+  max-height: 252px;
+  overflow: hidden;
+}
+#quickMenu > div.bottom .slide-view .view-list {
+  width: 100%;
+  padding: 8px;
+}
+#quickMenu > div.bottom .slide-view .view-list li {
+  width: 100%;
+  padding: 2px 0;
+  overflow: hidden;
+}
+#quickMenu > div.bottom .slide-view .view-list li a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#quickMenu > div.bottom .slide-view .view-list li a img {
+  width: auto;
+  height: 80px;
+}
+#quickMenu > div.gap {
+  height: 8px;
+}

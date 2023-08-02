@@ -1,0 +1,73 @@
+#section1 {
+  width: 100%;
+}
+#section1 .slide-container {
+  width: 100%;
+  position: relative;
+}
+#section1 .slide-container .slide-view {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#section1 .slide-container .slide-view .slide-wrap {
+  width: 2300%;
+  display: flex;
+  margin: 0 0 0 -100%;
+  position: relative;
+}
+#section1 .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+}
+#section1 .slide-container .slide-view .slide-wrap .slide a {
+  display: block;
+  width: 100%;
+}
+#section1 .slide-container .slide-view .slide-wrap .slide a img {
+  width: 100%;
+}
+#section1 .slide-container .next-btn {
+  position: absolute;
+  top: 50%;
+  margin: -25px 0 0 0;
+  right: 15%;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  transition: all 1s;
+  opacity: 0;
+}
+#section1 .slide-container .next-btn.on {
+  opacity: 1;
+}
+#section1 .slide-container .prev-btn {
+  position: absolute;
+  top: 50%;
+  margin: -25px 0 0 0;
+  left: 15%;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  transform: rotate(180deg);
+  transition: all 1s;
+  opacity: 0;
+}
+#section1 .slide-container .prev-btn.on {
+  opacity: 1;
+}
+#section1 .slide-container .page-count {
+  position: absolute;
+  bottom: 30px;
+  right: 30%;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 5px 15px 7px 15px;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+#section1 .slide-container .page-count i {
+  margin: 0 4px;
+}

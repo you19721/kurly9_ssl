@@ -1,0 +1,25 @@
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  width: 100%;
+}
+#wrap #main #section7 {
+  padding: 40px 0;
+  width: 100%;
+}
+#wrap #main #section7 .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#wrap #main #section7 .container .content {
+  width: 100%;
+}
+#wrap #main #section7 .container .content a {
+  display: block;
+  width: 100%;
+}
+#wrap #main #section7 .container .content a img {
+  width: 100%;
+}

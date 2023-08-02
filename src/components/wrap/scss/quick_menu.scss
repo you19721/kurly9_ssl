@@ -1,0 +1,87 @@
+#quickMenu {
+    position: absolute;
+    right:20px;
+    top: 42px + 156px + 370.578px + 80px + 13px;
+    width: 80px;
+    z-index: 3;
+    margin: 0;    
+    &.on{
+        position: fixed;
+        top: 50%;
+        margin: -260px 0 0 0;
+    }
+    > div {
+        width:100%;
+      &.top {
+        a {
+            display: block;
+            width:100%;
+            img {
+                width:100%;
+            }
+        }
+      }  
+      &.middle {
+        p {
+            border-top:1px solid #ddd;
+            border-left:1px solid #ddd;
+            border-right:1px solid #ddd;
+            &:last-child {
+                border-bottom:1px solid #ddd;
+            }
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 12px;
+                height: 30px; 
+                width:100%;               
+            }
+        }
+      }  
+      &.bottom {
+        width:100%;
+        border: 1px solid #ddd;
+        div {
+            width:100%;
+            text-align: center;
+            &.arrow-top {
+                height: 20px;
+                img {width:20px;}
+            }
+            &.title {font-size: 12px;font-weight: 500;}
+            &.arrow-bottom {
+                height: 20px;
+                img {width:20px;transform: rotate(180deg);}
+            }
+        }
+        .slide-view{
+            width:100%;
+            height: auto;
+            max-height: 84px * 3;            
+            overflow: hidden;
+            .view-list {
+                width:100%;
+                padding:8px;            
+                li {
+                    width:100%;
+                    padding:2px 0;
+                    overflow: hidden;
+                    a {
+                        display: flex;
+                        width:100%;
+                        justify-content: center;
+                        img {
+                            width:auto;
+                            height: 80px;
+                        }
+                    }
+                }
+            }
+        }
+      }
+      &.gap{
+        height: 8px;
+      }  
+    }
+}

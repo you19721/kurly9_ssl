@@ -1,0 +1,176 @@
+#wrap{
+    width:100%;
+    #main {
+        width:100%;
+        #section4 {
+            padding:80px 0 40px 0;
+            width:100%;
+            .container {
+                width: 100%;
+                max-width: 1068px;
+                margin: 0  auto;
+                .gap{
+                    width:100%;
+                    .title {
+                        width:100%;
+                        padding: 0 0 40px 0;
+                        h2 {
+                            width:100%;
+                            color:#333;
+                            font-weight: 600;
+                            font-size: 28px;
+                            text-align: center;
+                        }
+                    }
+                    .content {
+                        width:100%;
+                        
+                        .slide-container {
+                            width:100%;
+                            position: relative;
+                            .slide-view {
+                                width:100%;
+                                overflow: hidden;
+                                position: relative;
+                                z-index: 1;
+                                .slide-wrap {
+                                    width:25% * 4;
+                                    display: flex;
+                                    position: relative;
+                                    .slide {
+                                        width:25%;
+                                        .col-gap {
+                                            width:100%;
+                                            padding: 0 9px;
+                                            > h2{font-size: 28px;color:#333;font-weight: 700;}
+                                            > h4{font-size: 16px;color:#666;padding:15px 0 0 0;}
+                                            .day-titmer-box{
+                                                padding:40px 0;
+                                               img {width:36px;margin:0 6px 0 0;}
+                                               span{font-size: 32px;color:#333;font-weight: 800;}
+                                               i{font-size: 32px;color:#333;margin:0 1px;}
+                                            }
+                                            .img-box {
+                                                width:100%;
+                                                overflow: hidden;
+                                                a {
+                                                    display: block;
+                                                    position: relative;
+                                                    width:100%;
+                                                   > img{
+                                                        z-index: 1;
+                                                        position: relative;
+                                                        width:100%;
+                                                        transition: all 0.3s;
+                                                        &:hover {
+                                                            transform: scale(1.1);
+                                                        }
+                                                    }
+                                                    span{
+                                                        position: absolute;
+                                                        z-index: 2;
+                                                        right:20px;
+                                                        bottom: 20px;
+                                                        img {
+                                                            width:auto;
+                                                        }
+                                                    }
+                                                    strong {
+                                                        position: absolute;
+                                                        z-index: 2;
+                                                        left:0;
+                                                        top:0;
+                                                        font-size: 14px;
+                                                        font-weight: 700;
+                                                        color:#fff;
+                                                        background: #bd76ff;
+                                                        padding:5px 10px 7px 10px;
+                                                    }
+                                                }
+                                            }
+                                            .txt-box {
+                                                ul {
+                                                    padding: 20px 0 0 0;
+                                                    li {
+                                                        padding:5px 0;
+                                                        &:nth-child(1){
+                                                            line-height: 150%;
+                                                            font-size: 15px;color:#333;
+                                                        }
+                                                        &:nth-child(2){
+                                                            font-weight: 600;
+                                                            span{font-size: 16px;color:#c00;}
+                                                            strong{font-size: 16px;color:#333;}
+                                                            &.on{
+                                                                display: none;
+                                                            }
+                                                        }
+                                                        &:nth-child(3){
+                                                            text-decoration: line-through;
+                                                            font-size: 14px;
+                                                            &.on{
+                                                                text-decoration: none;
+                                                                font-size: 16px;
+                                                                font-weight: 600;   
+                                                            }
+                                                        }
+                                                        &:nth-child(4){
+                                                            img{width:15px;}
+                                                            span{color:#999;font-size: 12px;}
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            > a {
+                                z-index: 2;
+                                position: absolute;
+                                top: calc((320px - 60px) / 2);
+                                width:60px;
+                                height:60px;
+                                                              
+                              &.next-arrow-btn {
+                                right:-21px;
+                                img {
+                                    width:100%;
+                                    transform: rotate(-180deg);
+                                }
+                              }  
+                              &.prev-arrow-btn {
+                                left:-21px;
+                                img {
+                                    width:100%;
+                                }
+                              }  
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section3{
+            padding:0;
+            width:100%;
+            .container {
+                width: 100%;
+                max-width: 1050px;
+                margin: 0  auto;
+                .gap{
+                    width:100%;                    
+                    .content {
+                        a {
+                            display: block;
+                            width: 100%;
+                            img {
+                                width:100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

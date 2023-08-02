@@ -1,0 +1,37 @@
+#wrap {
+  width: 100%;
+}
+#wrap #topModal {
+  width: 100%;
+  background: #5f0080;
+}
+#wrap #topModal .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#wrap #topModal .container .content {
+  position: relative;
+  height: 42px;
+}
+#wrap #topModal .container .content a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 14px;
+}
+#wrap #topModal .container .content a span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrap #topModal .container .content a span img {
+  width: auto;
+}

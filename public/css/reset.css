@@ -1,0 +1,16 @@
+* {margin: 0;padding: 0;vertical-align: middle;box-sizing: border-box;}
+html,body {width:100%;height:100%;}
+html {overflow-y: scroll; /* 스무스스크롤링 */ scroll-behavior: smooth; }
+html.on {overflow: hidden;}
+body {
+    font: normal 14px/1  'Noto Sans', "Nanum Gothic";
+    color: rgb(50, 50, 50);
+    background: rgb(255,255,255);
+}
+ul {list-style: none;}
+a {text-decoration: none;color: rgb(50, 50, 50);}
+h1,h2,h3,h4.h5,h6 {font-weight: normal;font-size: 14px;}
+.blind {display: block;text-indent: -2000px;overflow: hidden;}
+.hide {display: none;}
+em, i, address {font-style: normal;}
+strong, b {font-weight: normal;}
