@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kurly9_ssl/static/css/main.6e408dd0.css",
+    "main.js": "/kurly9_ssl/static/js/main.8cfa747c.js",
+    "static/media/deliveryInfo.png": "/kurly9_ssl/static/media/deliveryInfo.faf33b2327b3ef630758.png",
+    "index.html": "/kurly9_ssl/index.html",
+    "static/media/ico_arrow_down_11x10.svg": "/kurly9_ssl/static/media/ico_arrow_down_11x10.05de61d7e462edcbe1f0.svg",
+    "static/media/icon_check_on.svg": "/kurly9_ssl/static/media/icon_check_on.d6ddbbb3cb1345087b0f.svg",
+    "static/media/check_off.svg": "/kurly9_ssl/static/media/check_off.123d49c45255401f31f6.svg",
+    "static/media/icon_check_off.svg": "/kurly9_ssl/static/media/icon_check_off.1349c49e7ac5d2de8d17.svg",
+    "static/media/check_on.svg": "/kurly9_ssl/static/media/check_on.1269cbc67aca7cce360a.svg",
+    "static/media/icon_arrow_up_down.svg": "/kurly9_ssl/static/media/icon_arrow_up_down.5f677702b49632429b29.svg",
+    "static/media/ico_sub_dot.svg": "/kurly9_ssl/static/media/ico_sub_dot.f1c4a62d9156b1631e23.svg",
+    "static/media/icon_arrow.svg": "/kurly9_ssl/static/media/icon_arrow.0eeda80f4277fc27ef5f2b1cf7aadecd.svg",
+    "main.6e408dd0.css.map": "/kurly9_ssl/static/css/main.6e408dd0.css.map",
+    "main.8cfa747c.js.map": "/kurly9_ssl/static/js/main.8cfa747c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e408dd0.css",
+    "static/js/main.8cfa747c.js"
+  ]
+}
